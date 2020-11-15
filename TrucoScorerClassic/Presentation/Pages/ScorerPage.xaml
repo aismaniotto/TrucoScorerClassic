@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="TrucoScorerClassic.Presentation.Pages.ScorerPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+    Title="TRUCO"
+    Visual="Material">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Text="Clear" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid Padding="10,10,10,30" RowDefinitions="0.05*,0.05*,0.8*,0.1*">
+            <Label
+                Grid.Row="0"
+                Grid.ColumnSpan="2"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="MARCADOR"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="Nós"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+            <Label
+                Grid.Row="1"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="Eles"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+
+            <input:SelectionView
+                x:Name="usScorer"
+                Grid.Row="2"
+                Grid.Column="0"
+                ColumnNumber="1"
+                SelectionType="RadioButton" />
+            <input:SelectionView
+                x:Name="theyScorer"
+                Grid.Row="2"
+                Grid.Column="1"
+                ColumnNumber="1"
+                SelectionType="RadioButton" />
+
+            <input:SelectionView
+                x:Name="usPoints"
+                Grid.Row="3"
+                Grid.Column="0"
+                ColumnNumber="4"
+                Scale="0.8"
+                SelectionType="RadioButton"
+                VerticalOptions="Start" />
+            <input:SelectionView
+                x:Name="theyPoints"
+                Grid.Row="3"
+                Grid.Column="1"
+                ColumnNumber="4"
+                Scale="0.8"
+                SelectionType="RadioButton"
+                VerticalOptions="End" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

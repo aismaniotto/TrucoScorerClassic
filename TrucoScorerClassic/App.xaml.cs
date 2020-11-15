@@ -1,6 +1,5 @@
-﻿using System;
+﻿using TrucoScorerClassic.Presentation.Pages;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace TrucoScorerClassic
 {
@@ -10,7 +9,7 @@ namespace TrucoScorerClassic
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ScorerPage());
         }
 
         protected override void OnStart()
