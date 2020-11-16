@@ -7,10 +7,13 @@
     Title="TRUCO"
     Visual="Material">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Order="Primary" Text="Clear" />
+        <ToolbarItem
+            Command="{Binding ClearCommand}"
+            Order="Primary"
+            Text="Limpar" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <Grid Padding="10,10,10,30" RowDefinitions="0.05*,0.05*,0.8*,0.1*">
+        <Grid Margin="20,10" RowDefinitions="0.05*,0.05*,0.8*,0.1*">
             <Label
                 Grid.Row="0"
                 Grid.ColumnSpan="2"
@@ -39,32 +42,36 @@
                 VerticalTextAlignment="Center" />
 
             <input:SelectionView
-                x:Name="usScorer"
                 Grid.Row="2"
                 Grid.Column="0"
                 ColumnNumber="1"
+                ItemsSource="{Binding UsTotalScorer}"
+                SelectedItem="{Binding UsScorer}"
                 SelectionType="RadioButton" />
             <input:SelectionView
-                x:Name="theyScorer"
                 Grid.Row="2"
                 Grid.Column="1"
                 ColumnNumber="1"
+                ItemsSource="{Binding TheyTotalScorer}"
+                SelectedItem="{Binding TheyScorer}"
                 SelectionType="RadioButton" />
 
             <input:SelectionView
-                x:Name="usPoints"
                 Grid.Row="3"
                 Grid.Column="0"
                 ColumnNumber="4"
+                ItemsSource="{Binding UsTotalPoints}"
                 Scale="0.8"
+                SelectedItem="{Binding UsPoints}"
                 SelectionType="RadioButton"
                 VerticalOptions="Start" />
             <input:SelectionView
-                x:Name="theyPoints"
                 Grid.Row="3"
                 Grid.Column="1"
                 ColumnNumber="4"
+                ItemsSource="{Binding TheyTotalPoints}"
                 Scale="0.8"
+                SelectedItem="{Binding TheyPoints}"
                 SelectionType="RadioButton"
                 VerticalOptions="End" />
 
