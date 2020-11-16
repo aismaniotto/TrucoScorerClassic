@@ -6,6 +6,7 @@
     xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
     Title="TRUCO"
     Visual="Material">
+
     <ContentPage.ToolbarItems>
         <ToolbarItem
             Command="{Binding ClearCommand}"
@@ -17,7 +18,7 @@
             <Label
                 Grid.Row="0"
                 Grid.ColumnSpan="2"
-                FontSize="Large"
+                FontSize="Title"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
                 Text="MARCADOR"
@@ -27,6 +28,7 @@
             <Label
                 Grid.Row="1"
                 Grid.Column="0"
+                FontSize="Large"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
                 Text="Nós"
@@ -35,6 +37,7 @@
             <Label
                 Grid.Row="1"
                 Grid.Column="1"
+                FontSize="Large"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
                 Text="Eles"
@@ -45,6 +48,7 @@
                 Grid.Row="2"
                 Grid.Column="0"
                 ColumnNumber="1"
+                HorizontalOptions="Center"
                 ItemsSource="{Binding UsTotalScorer}"
                 SelectedItem="{Binding UsScorer}"
                 SelectionType="RadioButton" />
@@ -52,6 +56,7 @@
                 Grid.Row="2"
                 Grid.Column="1"
                 ColumnNumber="1"
+                HorizontalOptions="Center"
                 ItemsSource="{Binding TheyTotalScorer}"
                 SelectedItem="{Binding TheyScorer}"
                 SelectionType="RadioButton" />
@@ -60,20 +65,20 @@
                 Grid.Row="3"
                 Grid.Column="0"
                 ColumnNumber="4"
+                HorizontalOptions="Center"
                 ItemsSource="{Binding UsTotalPoints}"
                 Scale="0.8"
                 SelectedItem="{Binding UsPoints}"
-                SelectionType="RadioButton"
-                VerticalOptions="Start" />
+                SelectionType="RadioButton" />
             <input:SelectionView
                 Grid.Row="3"
                 Grid.Column="1"
                 ColumnNumber="4"
+                HorizontalOptions="Center"
                 ItemsSource="{Binding TheyTotalPoints}"
                 Scale="0.8"
                 SelectedItem="{Binding TheyPoints}"
-                SelectionType="RadioButton"
-                VerticalOptions="End" />
+                SelectionType="RadioButton" />
 
         </Grid>
     </ContentPage.Content>
