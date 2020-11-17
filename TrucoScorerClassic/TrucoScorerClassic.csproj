@@ -20,5 +20,6 @@
     <Folder Include="Presentation\" />
     <Folder Include="Presentation\Pages\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Themes\" />
   </ItemGroup>
 </Project>

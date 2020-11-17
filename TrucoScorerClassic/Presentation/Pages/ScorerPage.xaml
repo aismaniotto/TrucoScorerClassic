@@ -13,8 +13,9 @@
             Order="Primary"
             Text="Limpar" />
     </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
-        <Grid Margin="20,10" RowDefinitions="0.05*,0.05*,0.8*,0.1*">
+        <Grid Padding="20,10" RowDefinitions="0.05*,0.05*,0.8*,0.1*">
             <Label
                 Grid.Row="0"
                 Grid.ColumnSpan="2"
@@ -51,7 +52,8 @@
                 HorizontalOptions="Center"
                 ItemsSource="{Binding UsTotalScorer}"
                 SelectedItem="{Binding UsScorer}"
-                SelectionType="RadioButton" />
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
             <input:SelectionView
                 Grid.Row="2"
                 Grid.Column="1"
@@ -59,7 +61,8 @@
                 HorizontalOptions="Center"
                 ItemsSource="{Binding TheyTotalScorer}"
                 SelectedItem="{Binding TheyScorer}"
-                SelectionType="RadioButton" />
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
 
             <input:SelectionView
                 Grid.Row="3"
@@ -69,7 +72,8 @@
                 ItemsSource="{Binding UsTotalPoints}"
                 Scale="0.8"
                 SelectedItem="{Binding UsPoints}"
-                SelectionType="RadioButton" />
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
             <input:SelectionView
                 Grid.Row="3"
                 Grid.Column="1"
@@ -78,7 +82,8 @@
                 ItemsSource="{Binding TheyTotalPoints}"
                 Scale="0.8"
                 SelectedItem="{Binding TheyPoints}"
-                SelectionType="RadioButton" />
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
 
         </Grid>
     </ContentPage.Content>
