@@ -2669,7 +2669,6 @@ namespace TrucoScorerClassic.Droid
 			global::Plugin.InputKit.Resource.Styleable.View_paddingStart = global::TrucoScorerClassic.Droid.Resource.Styleable.View_paddingStart;
 			global::Plugin.InputKit.Resource.Styleable.View_theme = global::TrucoScorerClassic.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::TrucoScorerClassic.Droid.Resource.Attribute.alpha;
-			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::TrucoScorerClassic.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::TrucoScorerClassic.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::TrucoScorerClassic.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::TrucoScorerClassic.Droid.Resource.Attribute.fontProviderCerts;
@@ -2680,23 +2679,15 @@ namespace TrucoScorerClassic.Droid
 			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::TrucoScorerClassic.Droid.Resource.Attribute.fontStyle;
 			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::TrucoScorerClassic.Droid.Resource.Attribute.fontVariationSettings;
 			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::TrucoScorerClassic.Droid.Resource.Attribute.fontWeight;
-			global::Xamarin.Essentials.Resource.Attribute.keylines = global::TrucoScorerClassic.Droid.Resource.Attribute.keylines;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::TrucoScorerClassic.Droid.Resource.Attribute.layout_anchor;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::TrucoScorerClassic.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Attribute.layout_behavior = global::TrucoScorerClassic.Droid.Resource.Attribute.layout_behavior;
-			global::Xamarin.Essentials.Resource.Attribute.layout_dodgeInsetEdges = global::TrucoScorerClassic.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::TrucoScorerClassic.Droid.Resource.Attribute.layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::TrucoScorerClassic.Droid.Resource.Attribute.layout_keyline;
-			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::TrucoScorerClassic.Droid.Resource.Attribute.statusBarBackground;
 			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::TrucoScorerClassic.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Essentials.Resource.Color.androidx_core_ripple_material_light = global::TrucoScorerClassic.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.androidx_core_secondary_text_default_material_light = global::TrucoScorerClassic.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::TrucoScorerClassic.Droid.Resource.Color.browser_actions_bg_grey;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::TrucoScorerClassic.Droid.Resource.Color.browser_actions_divider_color;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::TrucoScorerClassic.Droid.Resource.Color.browser_actions_text_color;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::TrucoScorerClassic.Droid.Resource.Color.browser_actions_title_color;
 			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::TrucoScorerClassic.Droid.Resource.Color.notification_action_color_filter;
 			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::TrucoScorerClassic.Droid.Resource.Color.notification_icon_bg_color;
-			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::TrucoScorerClassic.Droid.Resource.Color.ripple_material_light;
-			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::TrucoScorerClassic.Droid.Resource.Color.secondary_text_default_material_light;
 			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::TrucoScorerClassic.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
 			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::TrucoScorerClassic.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::TrucoScorerClassic.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
@@ -2771,43 +2762,28 @@ namespace TrucoScorerClassic.Droid
 			global::Xamarin.Essentials.Resource.Id.action_divider = global::TrucoScorerClassic.Droid.Resource.Id.action_divider;
 			global::Xamarin.Essentials.Resource.Id.action_image = global::TrucoScorerClassic.Droid.Resource.Id.action_image;
 			global::Xamarin.Essentials.Resource.Id.action_text = global::TrucoScorerClassic.Droid.Resource.Id.action_text;
-			global::Xamarin.Essentials.Resource.Id.all = global::TrucoScorerClassic.Droid.Resource.Id.all;
 			global::Xamarin.Essentials.Resource.Id.async = global::TrucoScorerClassic.Droid.Resource.Id.async;
 			global::Xamarin.Essentials.Resource.Id.blocking = global::TrucoScorerClassic.Droid.Resource.Id.blocking;
-			global::Xamarin.Essentials.Resource.Id.bottom = global::TrucoScorerClassic.Droid.Resource.Id.bottom;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::TrucoScorerClassic.Droid.Resource.Id.browser_actions_header_text;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::TrucoScorerClassic.Droid.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::TrucoScorerClassic.Droid.Resource.Id.browser_actions_menu_item_icon;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::TrucoScorerClassic.Droid.Resource.Id.browser_actions_menu_item_text;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::TrucoScorerClassic.Droid.Resource.Id.browser_actions_menu_view;
-			global::Xamarin.Essentials.Resource.Id.center = global::TrucoScorerClassic.Droid.Resource.Id.center;
-			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::TrucoScorerClassic.Droid.Resource.Id.center_horizontal;
-			global::Xamarin.Essentials.Resource.Id.center_vertical = global::TrucoScorerClassic.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Essentials.Resource.Id.chronometer = global::TrucoScorerClassic.Droid.Resource.Id.chronometer;
-			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::TrucoScorerClassic.Droid.Resource.Id.clip_horizontal;
-			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::TrucoScorerClassic.Droid.Resource.Id.clip_vertical;
 			global::Xamarin.Essentials.Resource.Id.dialog_button = global::TrucoScorerClassic.Droid.Resource.Id.dialog_button;
-			global::Xamarin.Essentials.Resource.Id.end = global::TrucoScorerClassic.Droid.Resource.Id.end;
-			global::Xamarin.Essentials.Resource.Id.fill = global::TrucoScorerClassic.Droid.Resource.Id.fill;
-			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::TrucoScorerClassic.Droid.Resource.Id.fill_horizontal;
-			global::Xamarin.Essentials.Resource.Id.fill_vertical = global::TrucoScorerClassic.Droid.Resource.Id.fill_vertical;
 			global::Xamarin.Essentials.Resource.Id.forever = global::TrucoScorerClassic.Droid.Resource.Id.forever;
 			global::Xamarin.Essentials.Resource.Id.icon = global::TrucoScorerClassic.Droid.Resource.Id.icon;
 			global::Xamarin.Essentials.Resource.Id.icon_group = global::TrucoScorerClassic.Droid.Resource.Id.icon_group;
 			global::Xamarin.Essentials.Resource.Id.info = global::TrucoScorerClassic.Droid.Resource.Id.info;
 			global::Xamarin.Essentials.Resource.Id.italic = global::TrucoScorerClassic.Droid.Resource.Id.italic;
-			global::Xamarin.Essentials.Resource.Id.left = global::TrucoScorerClassic.Droid.Resource.Id.left;
 			global::Xamarin.Essentials.Resource.Id.line1 = global::TrucoScorerClassic.Droid.Resource.Id.line1;
 			global::Xamarin.Essentials.Resource.Id.line3 = global::TrucoScorerClassic.Droid.Resource.Id.line3;
-			global::Xamarin.Essentials.Resource.Id.none = global::TrucoScorerClassic.Droid.Resource.Id.none;
 			global::Xamarin.Essentials.Resource.Id.normal = global::TrucoScorerClassic.Droid.Resource.Id.normal;
 			global::Xamarin.Essentials.Resource.Id.notification_background = global::TrucoScorerClassic.Droid.Resource.Id.notification_background;
 			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::TrucoScorerClassic.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::TrucoScorerClassic.Droid.Resource.Id.notification_main_column_container;
-			global::Xamarin.Essentials.Resource.Id.right = global::TrucoScorerClassic.Droid.Resource.Id.right;
 			global::Xamarin.Essentials.Resource.Id.right_icon = global::TrucoScorerClassic.Droid.Resource.Id.right_icon;
 			global::Xamarin.Essentials.Resource.Id.right_side = global::TrucoScorerClassic.Droid.Resource.Id.right_side;
-			global::Xamarin.Essentials.Resource.Id.start = global::TrucoScorerClassic.Droid.Resource.Id.start;
 			global::Xamarin.Essentials.Resource.Id.tag_accessibility_actions = global::TrucoScorerClassic.Droid.Resource.Id.tag_accessibility_actions;
 			global::Xamarin.Essentials.Resource.Id.tag_accessibility_clickable_spans = global::TrucoScorerClassic.Droid.Resource.Id.tag_accessibility_clickable_spans;
 			global::Xamarin.Essentials.Resource.Id.tag_accessibility_heading = global::TrucoScorerClassic.Droid.Resource.Id.tag_accessibility_heading;
@@ -2820,7 +2796,7 @@ namespace TrucoScorerClassic.Droid
 			global::Xamarin.Essentials.Resource.Id.text2 = global::TrucoScorerClassic.Droid.Resource.Id.text2;
 			global::Xamarin.Essentials.Resource.Id.time = global::TrucoScorerClassic.Droid.Resource.Id.time;
 			global::Xamarin.Essentials.Resource.Id.title = global::TrucoScorerClassic.Droid.Resource.Id.title;
-			global::Xamarin.Essentials.Resource.Id.top = global::TrucoScorerClassic.Droid.Resource.Id.top;
+			global::Xamarin.Essentials.Resource.Id.view_tree_lifecycle_owner = global::TrucoScorerClassic.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::TrucoScorerClassic.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::TrucoScorerClassic.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::TrucoScorerClassic.Droid.Resource.Layout.browser_actions_context_menu_row;
@@ -2831,6 +2807,10 @@ namespace TrucoScorerClassic.Droid
 			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::TrucoScorerClassic.Droid.Resource.Layout.notification_template_icon_group;
 			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::TrucoScorerClassic.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::TrucoScorerClassic.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.copy_toast_msg = global::TrucoScorerClassic.Droid.Resource.String.copy_toast_msg;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_copy_link = global::TrucoScorerClassic.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_open_in_browser = global::TrucoScorerClassic.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_share_link = global::TrucoScorerClassic.Droid.Resource.String.fallback_menu_item_share_link;
 			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::TrucoScorerClassic.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::TrucoScorerClassic.Droid.Resource.Style.TextAppearance_Compat_Notification;
 			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::TrucoScorerClassic.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
@@ -2839,22 +2819,10 @@ namespace TrucoScorerClassic.Droid
 			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::TrucoScorerClassic.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::TrucoScorerClassic.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::TrucoScorerClassic.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::TrucoScorerClassic.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::TrucoScorerClassic.Droid.Resource.Styleable.ColorStateListItem;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::TrucoScorerClassic.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::TrucoScorerClassic.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::TrucoScorerClassic.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TrucoScorerClassic.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::TrucoScorerClassic.Droid.Resource.Styleable.FontFamily;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::TrucoScorerClassic.Droid.Resource.Styleable.FontFamilyFont;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::TrucoScorerClassic.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -2889,6 +2857,7 @@ namespace TrucoScorerClassic.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::TrucoScorerClassic.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::TrucoScorerClassic.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::TrucoScorerClassic.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::TrucoScorerClassic.Droid.Resource.Xml.image_share_filepaths;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::TrucoScorerClassic.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_fade_in = global::TrucoScorerClassic.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Material.Android.Resource.Animation.abc_fade_out = global::TrucoScorerClassic.Droid.Resource.Animation.abc_fade_out;
@@ -18318,19 +18287,22 @@ namespace TrucoScorerClassic.Droid
 			public const int view_offset_helper = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int view_tree_saved_state_registry_owner = 2131231020;
+			public const int view_tree_lifecycle_owner = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int visible = 2131231021;
+			public const int view_tree_saved_state_registry_owner = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int visible_removing_fragment_view_tag = 2131231022;
+			public const int visible = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int withText = 2131231023;
+			public const int visible_removing_fragment_view_tag = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int wrap_content = 2131231024;
+			public const int withText = 2131231024;
+			
+			// aapt resource value: 0x7F080131
+			public const int wrap_content = 2131231025;
 			
 			static Id()
 			{
