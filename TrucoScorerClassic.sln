@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrucoScorerClassic.iOS", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrucoScorerClassic", "TrucoScorerClassic\TrucoScorerClassic.csproj", "{F5554D69-060C-4D4B-A0E1-1F575EE7AC56}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrucoScorerClassicCore", "TrucoScorerClassicCore\TrucoScorerClassicCore.csproj", "{29D987FD-680F-4D2F-AC4D-C895744B8588}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{F5554D69-060C-4D4B-A0E1-1F575EE7AC56}.Release|iPhone.Build.0 = Release|Any CPU
 		{F5554D69-060C-4D4B-A0E1-1F575EE7AC56}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{F5554D69-060C-4D4B-A0E1-1F575EE7AC56}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Release|iPhone.Build.0 = Release|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{29D987FD-680F-4D2F-AC4D-C895744B8588}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
