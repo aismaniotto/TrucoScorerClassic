@@ -4,11 +4,19 @@
              xmlns:local="clr-namespace:TrucoScorerClassic"
              x:Class="TrucoScorerClassic.App">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+        <ResourceDictionary Source="Themes/DefaultTheme.xaml" />
+
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationBarColor}" />
+            <Setter Property="BarTextColor" Value="{DynamicResource SecondaryColor}" />
+        </Style>
+
+        <Style TargetType="Grid">
+            <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}" />
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}" />
+        </Style>
     </Application.Resources>
 </Application>
