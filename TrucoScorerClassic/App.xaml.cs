@@ -1,6 +1,4 @@
-﻿using TrucoScorerClassic.Presentation.Pages;
-
-namespace TrucoScorerClassic
+﻿namespace TrucoScorerClassic
 {
     public partial class App : Application
     {
@@ -8,7 +6,7 @@ namespace TrucoScorerClassic
         {
             InitializeComponent();
 
-            MainPage = new ScorerPage();
+            MainPage = new AppShell();
         }
     }
 }
