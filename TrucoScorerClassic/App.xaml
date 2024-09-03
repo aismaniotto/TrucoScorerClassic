@@ -6,9 +6,8 @@
     <Application.Resources>
         <ResourceDictionary Source="Themes/DefaultTheme.xaml" />
 
-        <Style TargetType="NavigationPage">
-            <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationBarColor}" />
-            <Setter Property="BarTextColor" Value="{DynamicResource SecondaryColor}" />
+        <Style TargetType="Shell" ApplyToDerivedTypes="True">
+            <Setter Property="Shell.BackgroundColor" Value="{DynamicResource NavigationBarColor}" />
         </Style>
 
         <Style TargetType="Grid">
