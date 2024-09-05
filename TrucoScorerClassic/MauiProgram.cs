@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using InputKit.Handlers;
+using Microsoft.Extensions.Logging;
 
 namespace TrucoScorerClassic
 {
@@ -9,6 +10,10 @@ namespace TrucoScorerClassic
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .ConfigureMauiHandlers(handlers =>
+                {
+                    handlers.AddInputKitHandlers();
+                })
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -16,7 +21,7 @@ namespace TrucoScorerClassic
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
