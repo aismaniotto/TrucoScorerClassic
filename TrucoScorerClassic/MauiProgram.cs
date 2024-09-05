@@ -1,4 +1,5 @@
-﻿using InputKit.Handlers;
+﻿using CommunityToolkit.Maui;
+using InputKit.Handlers;
 using Microsoft.Extensions.Logging;
 
 namespace TrucoScorerClassic
@@ -10,6 +11,7 @@ namespace TrucoScorerClassic
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
                 .ConfigureMauiHandlers(handlers =>
                 {
                     handlers.AddInputKitHandlers();
