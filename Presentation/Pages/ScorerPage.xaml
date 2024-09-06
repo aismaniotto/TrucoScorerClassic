@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="TrucoScorerClassic.Presentation.Pages.ScorerPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Title="TRUCO">
+
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource TertiaryTextColor}" StatusBarStyle="LightContent" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Command="{Binding ClearCommand}"
+            Order="Primary"
+            Text="Limpar" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <Grid Padding="20,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.05*" />
+                <RowDefinition Height="0.05*" />
+                <RowDefinition Height="0.8*" />
+                <RowDefinition Height="0.1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label
+                Grid.Row="0"
+                Grid.ColumnSpan="2"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="MARCADOR"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="Nós"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+            <Label
+                Grid.Row="1"
+                Grid.Column="1"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="Eles"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+
+            <input:SelectionView
+                Grid.Row="2"
+                Grid.Column="0"
+                ColumnNumber="1"
+                RowSpacing="10"
+                HorizontalOptions="Center"
+                ItemsSource="{Binding UsTotalScorer}"
+                SelectedItem="{Binding UsScorer}"
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
+            <input:SelectionView
+                Grid.Row="2"
+                Grid.Column="1"
+                ColumnNumber="1"
+                RowSpacing="10"
+                HorizontalOptions="Center"
+                ItemsSource="{Binding TheyTotalScorer}"
+                SelectedItem="{Binding TheyScorer}"
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
+
+            <input:SelectionView
+                Grid.Row="3"
+                Grid.Column="0"
+                ColumnNumber="4"
+                HorizontalOptions="Center"
+                ItemsSource="{Binding UsTotalPoints}"
+                Scale="0.8"
+                SelectedItem="{Binding UsPoints}"
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
+            <input:SelectionView
+                Grid.Row="3"
+                Grid.Column="1"
+                ColumnNumber="4"
+                HorizontalOptions="Center"
+                ItemsSource="{Binding TheyTotalPoints}"
+                Scale="0.8"
+                SelectedItem="{Binding TheyPoints}"
+                SelectionType="RadioButton"
+                Color="{StaticResource PrimaryColor}" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
